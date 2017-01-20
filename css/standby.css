@@ -1,0 +1,85 @@
+@font-face {
+  font-family:Pacifico-Regular;
+  src:url("../fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family:DancingScript-Regular;
+  src:url("../fonts/DancingScript-Regular.ttf");
+}
+
+
+html {
+  background-image: url("../img/cartes.png");
+  background-size:cover;;
+
+}
+
+h1{
+  color:#97000D;
+  text-align: center;
+  font-size: 65px;
+  font-family:DancingScript-Regular;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family:DancingScript-Regular;
+
+}
+
+h3{
+  font-family:DancingScript-Regular;
+  text-align: center;
+  font-size: 25px;
+  color:#97000D;
+
+}
+
+h4{
+  font-size: 15px;
+
+}
+
+span {
+  color:white;
+  text-shadow:black 1px 1px,black  -1px 1px, black 1px -1px, black 1px -1px;
+}
+
+.presentation {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding:1%;
+}
+
+.formulaire{
+  background:black;
+  color:white;
+  margin-top: 9.5%;
+  height: 380px;
+}
+
+.formulaire p {
+  color:#970009;
+}
+
+.valider {
+  color:black;
+  display:block;
+  margin: auto;
+}
+.collapsible{
+  border-color:#970009;
+}
+.collapsible-header {
+  background-color:#970009;
+  border-color:black;
+}
+
+.collapsible-body {
+  border-color:#970009;
+
+}

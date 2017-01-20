@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/standby.css" media="screen" title="no title">
+    <title></title>
+</head>
+
+<body>
+  <h1 id="titre">Lorem ipsum dolor sit amet, </h1>
+
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col l4 offset-l1">
+
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header" id="question1"> Lorem ipsum dolor sit amet
+                        </div>
+
+                        <div class="collapsible-body">
+                            <p><input type="button" name="name" value="lorem" id="btnYes1">
+                              <input type="button" name="name" value="Ipsum" id="btnNo1"> </p>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header" id="question2"> Lorem ipsum dolor sit amet
+                        </div>
+
+                        <div class="collapsible-body">
+                          <p><input type="button" name="name" value="lorem" id="btnYes2">
+                            <input type="button" name="name" value="Ipsum" id="btnNo2"></p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header" id="question3"> Lorem ipsum dolor sit amet
+                        </div>
+
+                        <div class="collapsible-body">
+                          <p><input type="button" name="name" value="lorem" id="btnYes3">
+                            <input type="button" name="name" value="Ipsum" id="btnNo3"></p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="presentation" >
+                <p id="pst"> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                  sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.</p>
+                </div>
+
+              </div>
+
+<!-- ****************************************************************************** -->
+<!-- ****************************************************************************** -->
+<!-- ****************************************************************************** -->
+<!-- ****************************************************************************** -->
+
+
+            <div class="col l6 formulaire">
+              <div id="bouton">
+              <input class="valider"type="button"value="Lorem" onclick="changer()">
+            </div>
+            <form class="col s12">
+      <div class="row">
+
+
+        <div class="col s6">
+          <input id="nom" type="text" value="" placeholder="Nom">
+        <div class="col s6" id="mauvaisnom">
+          </div>
+        </div>
+
+
+        <div class="col s6">
+          <input id="prenom" type="text" value="" placeholder="Prenom">
+        </div>
+        <div class="col s6" id="mauvaisprenom">
+        </div>
+
+      </div><!--Row-->
+
+      <div class="row">
+        <div class="col s12">
+          <input id="email" value="" placeholder="Adresse e-mail">
+          <div class="col s6" id="mauvaismail">
+            </div>
+        </div>
+
+        <div class="row">
+                <div class=" col s12">
+                  <textarea class="materialize-textarea" value="" placeholder="Tapez votre Message"></textarea>
+                  <input class="valider" type="button" name="name" value="Envoyer" onclick="push()">
+                </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+        </div>
+        <!--ROW -->
+
+
+    </div>
+    <!--Container-fluid -->
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/standby.js"></script>
+</body>
+
+</html>
